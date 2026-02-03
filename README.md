@@ -38,7 +38,7 @@ Telco-Customer-Churn-Prediction/
 <br>
 <br>
 │
-├── notebooks/
+├── https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction/blob/main/telco.Customer%20Churn%20Prediction.ipynb?utm_source=chatgpt.com---
 │   └── telco.Customer Churn.ipynb
 <br>
 <br>
