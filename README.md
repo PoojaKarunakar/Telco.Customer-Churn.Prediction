@@ -31,3 +31,21 @@ Matplotlib, Seaborn
 📌 Outcome
 
 The final model effectively predicts customer churn and provides insights that can support data-driven retention strategies.
+Telco-Customer-Churn-Prediction/
+│
+├── data/
+│   └── telco_customer_churn.csv
+│
+├── notebooks/
+│   └── telco.Customer Churn.ipynb
+│
+├── screenshots/
+│   ├── churn_distribution.png
+│   ├── confusion_matrix.png
+│   └── roc_curve.png
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
+
