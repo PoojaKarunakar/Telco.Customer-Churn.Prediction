@@ -136,18 +136,13 @@ The final model effectively predicts customer churn and provides insights that c
 <br>
 <br>
 │
-[Telco Customer Churn jpynb](https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction)---telco.Customer Churn.ipynb
+[Telco Customer Churn jpynb](https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction/blob/main/telco.Customer%20Churn.project.ipynb)---telco.Customer Churn.ipynb
 │  
 <br>
-<br>
 │
-├── screenshots/
-│   ├── churn_distribution.png
-│   ├── confusion_matrix.png
-│   └── roc_curve.png
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
+├── screenshots <br>
+│   ├── [roc_curve.png](https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction/blob/main/AUC.png)
+  <br>
+│   └── [accuracy.png](https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction/blob/main/random%20forest.png)
+
 
