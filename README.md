@@ -85,8 +85,7 @@ Each model was evaluated using:
 
  **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/telco-customer-churn.git
-   cd telco-customer-churn
+  https://github.com/PoojaKarunakar/Telco.Customer-Churn.Prediction
 ````
 
 
