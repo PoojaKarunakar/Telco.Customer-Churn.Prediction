@@ -17,26 +17,24 @@ By understanding key churn drivers, telecom companies can improve retention and 
 
 ###  1. Data Loading & Cleaning
 - Loaded Telco dataset (`telc.csv`)
-- Converted `TotalCharges` from string to numeric
+- Converted `TotalCharges` from obeject to float
 - Handled missing values and incorrect data types
 - Encoded the target variable `Churn` as binary (0 = No, 1 = Yes)
 
 ###  2. Exploratory Data Analysis (EDA)
 - Visualized churn distribution  
-- Examined relationships with categorical features (e.g., gender, contract type)
+- Examined relationships with categorical features
 - Correlation heatmap to identify strong predictors
 
 ###  3. Feature Engineering
-- Used **One-Hot Encoding** for categorical variables  
+- Used **LAbel-Encoding** for categorical variables  
 - Scaled numeric features using **StandardScaler**  
 - Selected top 20 important features using **Random Forest feature importances**
 
 ###  4. Model Training & Evaluation
 Trained and compared multiple algorithms:
-- **Logistic Regression**
 - **Decision Tree**
 - **Random Forest**
-- **Support Vector Machine (SVM)**
 - **XGBoost** *(if available)*
 
 Each model was evaluated using:
@@ -62,12 +60,11 @@ Each model was evaluated using:
 
 | Model | Accuracy | Precision | Recall | F1 | AUC |
 |-------|-----------|-----------|--------|----|-----|
-| Logistic Regression | ~79% | - | - | - | - |
-| Decision Tree | ~81% | - | - | - | - |
-| Random Forest | ~85% | - | - | - | - |
-| **XGBoost** | **87%** | - | - | - | **Best** |
+| Decision Tree | ~82% | - | - | - | - |
+|**Random** Forest | ~84% | - | - | - | **Best** |
+| XGBoost | **82%** | - | - | - |  |
 
-> XGBoost achieved the highest AUC and overall performance.
+> Random Forest achieved the highest AUC and overall performance.
 
 ---
 
@@ -108,8 +105,8 @@ Each model was evaluated using:
 | File                     | Description                       |
 | ------------------------ | --------------------------------- |
 | `scaler.pkl`             | Fitted StandardScaler             |
-| `best_model_XGBoost.pkl` | Best performing model             |
-| `results_df.csv`         | Evaluation metrics for all models |
+| `model.pkl` | Best performing model             |
+|`encoders.pk1`        | Stores encoding values |
 
 ---
 
@@ -117,18 +114,17 @@ Each model was evaluated using:
 
 * Implement **GridSearchCV** for hyperparameter tuning
 * Add **cross-validation** for more robust evaluation
-* Deploy model via **Streamlit** or **Flask API**
-* Add explainability via **SHAP values**
+* Deploy model via **Flask API**
 
 ---
 
 ##  Author
 
-**Nau Raa**
+**Pooja**
 Data Science & Machine Learning Enthusiast
 
 
- *If you find this useful, please star the repository on GitHub!* 
+*If you find this useful, please star the repository on GitHub!* 
 
 
 📌 Outcome
