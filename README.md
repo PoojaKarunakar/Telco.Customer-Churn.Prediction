@@ -61,8 +61,8 @@ Each model was evaluated using:
 | Model | Accuracy | Precision | Recall | F1 | AUC |
 |-------|-----------|-----------|--------|----|-----|
 | Decision Tree | ~82% | - | - | - | - |
-|**Random** Forest | ~84% | - | - | - | **Best** |
-| XGBoost |**82%** | - | - | - |  |
+|**Random** Forest |**~84%** | - | - | - | **Best** |
+| XGBoost | ~82% | - | - | - |  |
 
 > Random Forest achieved the highest AUC and overall performance.
 
